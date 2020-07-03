@@ -32,13 +32,3 @@ router.delete('/:postId', (req, res) => {
 });
 
 module.exports = router;
-
-/* 
-INDEX   GET    /posts/
-NEW     GET    /posts/new
-CREATE  POST   /posts/
-SHOW    GET    /posts/:postId
-EDIT    GET    /posts/:postId/edit
-UPDATE  PUT    /posts/:postId
-DESTROY DELETE /posts/:postId
-*/
